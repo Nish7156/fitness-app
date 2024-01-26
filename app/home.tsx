@@ -8,6 +8,7 @@ import {
 } from "react-native-responsive-screen";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import ImageSlider from "../components/ImageSlider";
+import TextCom from "../components/Text";
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
       <View>
         <ImageSlider />
       </View>
+      <TextCom/>
     </SafeAreaView>
   );
 }
